@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cadencia Digital</title>
+  <meta name="description" content="Performance no es suerte, es ritmo y constancia — Cadencia Digital." />
+  <link rel="icon" href="https://cadenciadigital.framer.ai/favicon.ico">
+  <style>
+    :root {
+      --azul:#5E8EFF;
+      --naranja:#FF8A2D;
+      --bg:#ffffff;
+      --text:#111;
+      --gris:#f5f6fa;
+    }
+    body{margin:0;font-family:'Sora',system-ui,Arial,sans-serif;color:var(--text);background:var(--bg);}
+    header{padding:64px 24px;background:linear-gradient(135deg,var(--azul),#7da9ff);color:#fff;text-align:center;}
+    h1{margin:0;font-size:42px;}
+    p.lead{font-size:18px;opacity:.95;margin-top:12px;}
+    a.cta{display:inline-block;margin-top:24px;padding:14px 28px;background:var(--naranja);color:#fff;text-decoration:none;border-radius:8px;font-weight:600;}
+    section{padding:60px 24px;text-align:center;}
+    h2{color:var(--azul);}
+    .cards{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;margin-top:30px;}
+    .card{flex:1 1 280px;max-width:320px;background:#fff;padding:24px;border-radius:16px;box-shadow:0 6px 20px rgba(10,20,40,0.06);}
+    footer{background:var(--gris);padding:30px;text-align:center;color:#666;font-size:14px;}
+    @media(max-width:700px){h1{font-size:32px;}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cadencia Digital</h1>
+    <p class="lead">Performance no es suerte, es ritmo y constancia.</p>
+    <a href="mailto:jorgegodoylem@gmail.com" class="cta">Contáctanos</a>
+  </header>
+
+  <section>
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Paid Media</h3>
+        <p>Campañas en Google Ads, Meta Ads y LinkedIn Ads orientadas a resultados.</p>
+      </div>
+      <div class="card">
+        <h3>Contenido</h3>
+        <p>Estrategia, diseño y ejecución de contenido para marcas que buscan crecer.</p>
+      </div>
+      <div class="card">
+        <h3>Performance</h3>
+        <p>Automatización, tracking y dashboards que conectan datos con decisiones.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Equipo</h2>
+    <p>Un equipo ágil liderado por Jorge Godoy, combinando creatividad, datos y ejecución.</p>
+  </section>
+
+  <footer>
+    © 2025 Cadencia Digital — contacto: jorgegodoylem@gmail.com
+  </footer>
+</body>
+</html>
+
